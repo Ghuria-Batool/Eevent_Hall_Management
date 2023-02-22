@@ -1,0 +1,813 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.logo img {
+  width: 100%;
+}
+.logo {
+  width: 5%;
+}
+.landingpage {
+    background-image: url('../images/homepage.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 630px;
+    width: 100%;
+    position: relative;
+}
+.rgba {
+  background-color: rgba(0, 0, 0, 0.6);
+  height: 630px;;
+  position: absolute;
+  width: 100%;
+}
+/*.navbar-nav {
+    --bs-nav-link-padding-x: 0;
+    background-image: url('../images/contact_hero_1280.jpg');
+    --bs-nav-link-padding-y: 0.5rem;
+    --bs-nav-link-font-weight:;
+    --bs-nav-link-color: #0d6efd;
+    --bs-nav-link-hover-color: #ffc107;
+    --bs-nav-link-disabled-color: #084298;
+    background-color: lightpink;
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}*/
+.sidebar ul li a {
+  color: #D58f80;
+}
+
+.contactus {
+  position: absolute;
+  right: 16%;
+  top: 32%;
+}
+
+.contactus a {
+  color: white;
+  text-decoration: none;
+  border-right: 1px solid white;
+  padding-right: 30px;
+  padding-left: 10px;
+}
+
+.contactus i {
+  color: white;
+  font-size: 16px;
+}
+
+.hero__section {
+  border: 1px solid #d5af80;
+  position: absolute;
+  top: 28%;
+  left: 7%;
+  width: 85%;
+}
+
+.hero__section .hero_logo {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.hero__section .hero__subtitle {
+  margin: 65px 0 0;
+  text-align: center;
+  font: normal normal normal 28px/30px Cinzel;
+  color: #d5af80;
+}
+
+.hero__section .hero__title {
+  word-break: break-word;
+  margin: 14px 0 0;
+  text-align: center;
+  font: normal normal normal 110px/90px Cinzel;
+  letter-spacing: 25px;
+  color: #d5af80;
+}
+
+.hero__section .hero__desk {
+  margin: 14px 0 26px;
+  text-align: center;
+  font: normal normal normal 20px/50px Cinzel;
+  color: #d5af80;
+}
+
+.hero__section .hero__since_wrapper {
+  position: absolute;
+  bottom: 0;
+  left: 51%;
+  transform: translate(-50%, 50%);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.hero__section .hero__since {
+  margin: 0;
+  text-align: center;
+  font: normal normal normal 20px/15px Cinzel;
+  color: #d5af80;
+}
+
+.hero__section .hero__since_stars {
+  display: flex;
+  justify-content: center;
+}
+
+.welcome-section {
+  margin-top: 94px;
+}
+
+.section_title {
+  text-align: center;
+  color: #000;
+  font: normal normal normal 40px/54px Cinzel;
+  display: flex;
+  flex-direction: column;
+  text-transform: uppercase;
+  margin: 0 auto;
+  align-items: center;
+}
+
+    .section_title:before {
+        
+        background-image: url('../images/diamond.9ed26887ed10ae24d374b45f5b347613.jpg');
+        color: #d5af80;
+        width: 18px;
+        margin-bottom: 9px;
+        line-height: 1;
+    }
+
+.section_title:after {
+  width: 40.3%;
+  content: "";
+  height: 1px;
+  background-color: #d5af80;
+  margin-top: 1.125rem;
+}
+
+.events_section .section_title:after {
+  width: 13%;
+  content: "";
+  height: 1px;
+  background-color: #d5af80;
+  margin-top: 1.125rem;
+}
+.gallery_section .section_title:after {
+  width: 13%;
+  content: "";
+  height: 1px;
+  background-color: #d5af80;
+  margin-top: 1.125rem;
+}
+
+.welcome-section .welcome_desk {
+  width: 58.281755%;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  letter-spacing: 0;
+  color: #000;
+}
+
+.events_section {
+  position: relative;
+  margin-top: 150px;
+  padding-bottom: 76px;
+  padding-left: 94px;
+  padding-right: 94px;
+}
+
+.events_sectiontext {
+  position: absolute;
+  top: 80%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+  transition-duration: 0.5s;
+}
+
+.events_sectiontext:hover {
+  position: absolute;
+  top: 40%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+  transition: all 0.5s;
+}
+
+.events_section:after {
+  content: "";
+  display: block;
+  width: 49.375%;
+  height: 100%;
+  position: absolute;
+  background-color: #faf7f2;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: -1;
+}
+
+.button {
+  text-align: center;
+  font: normal normal normal 16px/22px Cinzel;
+  letter-spacing: 0;
+  color: #fff;
+  text-decoration: none;
+  border: none;
+  margin: auto;
+  display: block;
+  background-color: #2f4d4b;
+  padding: 0.625rem;
+  width: 100%;
+  max-width: 26.125rem;
+  margin-top: 50px;
+  text-transform: uppercase;
+}
+
+.button:hover {
+  color: #fff;
+}
+
+.cardimg1 {
+    
+    background-image: url('../images/events_standard_weddings.jpg');
+    position: relative;
+    background-size: cover;
+    height: 428px;
+    transition-duration: 1s;
+}
+
+.cardimg2 {
+    
+    background-image: url('../images/events_standard_birthdays.jpg');
+    position: relative;
+    background-size: cover;
+    height: 428px;
+    transition-duration: 1s;
+}
+
+.cardimg3 {
+    
+    background-image: url('../images/events_standard_eventsbyaurora.jpg');
+    position: relative;
+    background-size: cover;
+    height: 428px;
+    transition-duration: 1s;
+}
+
+.cards_rgba {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 428px;
+  width: 100%;
+}
+
+.overf {
+  overflow: hidden;
+}
+
+.cardimg1:hover {
+  transform: scale(1.2);
+  transition-duration: 1s;
+}
+
+.cardimg2:hover {
+  transform: scale(1.2);
+  transition-duration: 1s;
+}
+
+.cardimg3:hover {
+  transform: scale(1.2);
+  transition-duration: 1s;
+}
+
+.venue_section {
+  margin-top: 10%;
+}
+
+.reltv {
+  position: relative;
+  bottom: 150px;
+  background-color: #faf7f2;
+  margin: 80px;
+  font-size: 16px;
+}
+
+.venue_section .section_title:after {
+  width: 13%;
+  content: "";
+  height: 1px;
+  background-color: #d5af80;
+  margin-top: 1.125rem;
+}
+
+.menu_section .section_title:after {
+  width: 13%;
+  content: "";
+  height: 1px;
+  background-color: #d5af80;
+  margin-top: 1.125rem;
+}
+
+.lazyloaded {
+  height: 100%;
+  object-fit: cover;
+}
+
+.home_menu_content {
+  padding: 80px 74px;
+}
+
+.home_menu_content p {
+  font: normal normal 300 16px/30px Roboto;
+}
+.testimonials_section .section_title::after{
+  width: 15%;
+  content: "";
+  height: 1px;
+  background-color: #d5af80;
+  margin-top: 1.125rem;
+}
+.stars {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.stars img{
+  width: 5%;
+  display: inline-block;
+}
+
+.testimonial_cardstext{
+  font: size 13px;
+  text-align: center;
+}
+.testimonials_section hr{
+  width: 300px;
+    margin-bottom: 20px;
+    border-color: #d5af80;
+}
+.testimonials_section .author {
+  text-align: center;
+  font: normal normal normal 16px/30px Cinzel;
+  color: #000;
+}
+.stepstobookanevent .section_title:after{
+  width: 45%;
+  content: "";
+  height: 1px;
+  background-color: #d5af80;
+  margin-top: 1.125rem;
+}
+.StepsToBookAnEvent_header {
+  background-color: #fff;
+  border: 1px solid #fff;
+  display: block;
+  width: 120px;
+  height: 120px;
+  text-align: center;
+  position:sticky;
+  border-radius: 60px;
+  font: normal normal normal 80px/108px Cinzel;
+  color: #2f4d4b;
+  font-size: 80px;
+  margin: 50px auto -60px;
+}
+.StepsToBookAnEvent_description {
+  width: 100%;
+  min-height: 180px;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #faf7f2;
+  z-index: 10;
+  color: #2f4d4b;
+  padding: 80px 38px 20px;
+  font: normal normal normal 30px/40px Cinzel;
+  letter-spacing: 0;
+  height: 220px;
+}
+.StepsToBookAnEvent_content {
+  margin: 20px auto;
+  text-align: left;
+  width: 100%;
+  font: normal normal 300 16px/30px Roboto;
+  letter-spacing: 0;
+  color: #000;
+}
+.highlight_picture{
+  width: 100%;
+  position: relative;
+}
+.highlight_picture img{
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+  top: 50%;
+}
+.highlights_section .section_title::after{
+  width: 46%;
+  content: "";
+  height: 1px;
+  background-color: #d5af80;
+  margin-top: 1.125rem;
+}
+.highlights_section_wrapper {
+  padding-top: 100px;
+  width: 52.5%;
+  margin-right: auto;
+  padding-left: 50px;
+}
+.highlights_description {
+  margin: 30px 0 0;
+  text-align: left;
+  margin-top: 40px;
+  font: normal normal 300 16px/40px Roboto;
+  letter-spacing: 0;
+  color: #000;
+}
+.hl_description{
+  text-align: left;
+  font: normal normal 300 16px/30px Roboto;
+  letter-spacing: 0;
+  color: #000;
+}
+.hl_title{
+  text-align: left;
+  font: normal normal normal 25px/40px Cinzel;
+  letter-spacing: 0;
+  color: #000;
+  text-transform:uppercase;
+}
+.hl_img img{
+  margin-left: 1%;
+  margin-top: 18%;
+  height: 70px;
+  width: 80%;
+  margin-bottom: 20%;
+}
+.subs_news__section {
+  margin-top: 150px;
+  padding-bottom: 52px;
+  position: relative;
+}
+.subs_news__section:before {
+  content: "";
+  display: block;
+  background-color: #2f4d4b;
+  height: 1px;
+  width: 100%;
+}
+.subs_news__section .subs_news__content {
+  padding-top: 70px;
+  padding-bottom: 70px;
+  position: relative;
+    z-index: 1;
+    padding: 50px 102px;
+    background-color: #faf7f2;
+}
+.subs_news__section .subs_news__content .subs_news__title {
+  margin: 0;
+  font: normal normal normal 40px/54px Cinzel;
+  letter-spacing: 0;
+  color: #2f4d4b;
+  text-align: center;
+  text-transform: uppercase ;
+}
+.subs_news__section .subs_news__content .subs_news__text {
+  margin-top: 50px;
+  font: normal normal 300 16px/24px Roboto;
+  display: block;
+  margin: 20px 0 0; 
+  text-align: center;
+  letter-spacing: 0;
+  color: #2f4d4b;
+}
+.subs_news__section .subs_news__content .subs_news__form {
+  display: flex;
+  align-items: flex-end;
+}
+.MuiFormControl-root {
+  border: 0;
+  width: 100%;
+  margin: 0;
+  display: inline-flex;
+  padding: 0;
+  position: relative;
+  min-width: 0;
+  flex-direction: column;
+  vertical-align: top;
+}
+.MuiFormLabel-root {
+  color: rgba(0, 0, 0, 0.54);
+  font-size: 1rem;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 400;
+  line-height: 1;
+}
+.MuiInput-underline:before {
+  left: 0;
+  right: 0;
+  bottom: 0;
+  content: "\00a0";
+  position: absolute;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.42);
+  pointer-events: none;
+}
+.MuiInputBase-input {
+  border: 0;
+  height: 1.1876em;
+  margin: 0;
+  display: block;
+  background: none;
+  outline: none;
+}
+.gallerylandingpage {
+    background-image: url('../images/gallery_hero_1280.jpg');
+    background-size: cover;   
+    background-repeat: no-repeat;
+    height: 630px;
+    width: 100%;
+    position: relative;
+    background-position-y: -100px;
+}
+.gl_items{
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+}
+.wedding1 {
+    background-image: url('../images/aurora banquet hall weddings 1  .jpg-1613018860930.jpg');
+    
+    height: 25rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    transition-duration: 1s;
+}
+.wedding2 {
+    
+    background-image: url('../images/aurora banquet hall weddings 2  .jpg-1613018878707.jpg');
+    /* width: 32%; */
+    height: 25rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    transition-duration: 1s;
+}
+.wedding3 {
+    
+    background-image: url('../images/aurora banquet hall weddings 3  .jpg-1613018890446.jpg');
+    /* width: 32% */
+    height: 25rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    transition-duration: 1s;
+}
+.wedding4 {
+    
+    background-image: url('../images/aurora banquet hall weddings 4  .jpg-1613018904742.jpg');
+    height: 25rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    transition-duration: 1s;
+}
+.wedding5 {
+    background-image: url('../images/aurora banquet hall weddings 5  .jpg-1613018925904.jpg');
+    
+    height: 25rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    transition-duration: 1s;
+}
+.wedding6 {
+   
+    background-image: url('../images/aurora banquet hall weddings 6  .jpg-1613018936989.jpg');
+    height: 25rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    transition-duration: 1s;
+}
+.wedding1:hover{
+  transform: scale(1.2);
+  transition-duration: 1s;
+}
+.wedding2:hover{
+  transform: scale(1.2);
+  transition-duration: 1s;
+}
+.wedding3:hover{
+  transform: scale(1.2);
+  transition-duration: 1s;
+}
+.wedding4:hover{
+  transform: scale(1.2);
+  transition-duration: 1s;
+}
+.wedding5:hover{
+  transform: scale(1.2);
+  transition-duration: 1s;
+}
+.wedding6:hover{
+  transform: scale(1.2);
+  transition-duration: 1s;
+}
+.contactus_landingpage {
+    
+    background-image: url('../images/contact_hero_1280.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 630px;
+    width: 100%;
+    position: relative;
+    background-position-y: -108px;
+}
+.reachtous .section_title::after{
+  width: 32%;
+  content: "";
+  height: 1px;
+  background-color: #d5af80;
+  margin-top: 1.125rem;
+}
+.contact-description {
+  text-align: center;
+  margin-top: 50px;
+}
+.inputbase{
+  border-top: 0;
+  border-left: 0; 
+  border-right:0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.42);
+  background: none;
+  width: 100%;
+  padding: 6px 0 7px;
+  outline: none;
+  margin-bottom: 30px;
+}
+.inputbase2{
+  border-top: 0;
+  border-left: 0; 
+  border-right:0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.42);
+  background: none;
+  width: 30%;
+  padding: 6px 0 7px;
+  outline: none;
+  margin-bottom: 30px;
+
+}
+input[type=date]::-webkit-datetime-edit-text {
+    -webkit-appearance: none;
+    display: none;
+}
+input[type=date]::-webkit-datetime-edit-month-field{
+    -webkit-appearance: none;
+    display: none;
+}
+input[type=date]::-webkit-datetime-edit-day-field {
+    -webkit-appearance: none;
+    display: none;
+}
+input[type=date]::-webkit-datetime-edit-year-field {
+    -webkit-appearance: none;
+    display: none;
+}
+.contactustxtarea{
+  width: 100%;
+  resize: none;
+  border-top: 0;
+  border-left: 0; 
+  border-right:0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.42);
+  background: none;
+  height: 100px;
+  outline: none;
+}
+.contact_us_card__title {
+  font: normal normal normal 18px/25px Cinzel;
+  letter-spacing: 0;
+  color: #2f4d4b;
+  margin: 0;
+}
+.contact_us_card__data {
+  padding: 29px 0 22px 39px;
+  background-color: #faf7f2;
+}
+.contact_us_card__list {
+  padding: 0;
+  margin: 21px 0 0;
+}
+.contact_us_card__list_item {
+  width: max-content;
+  display: block;
+  color: #2f4d4b;
+  background-color: #faf7f2;
+}
+.contact_us_card__icon {
+  margin-right: 1rem;
+  color: #D5AF80;
+  display: inline-block;
+  font-size: 1.5rem;
+  transition: fill 200ms;
+}
+.contact_us_card__list_text {
+  font: normal normal 300 16px/30px Roboto;
+  color: #2f4d4b;
+}
+.contact_us_card{
+  border-radius: 0;
+  border-right: 0;
+  border-bottom: 0;
+  border-color: #000;
+  width: 40%;
+  height: 60%;
+}
+.work_hours{
+  padding: 18px 60px;
+  color: #2f4d4b
+}
+.work_hours i{
+  fill: currentColor;
+  width: 1em;
+  height: 1em;
+  user-select: none;
+  display: inline-block;
+  font-size: 1.5rem;
+}
+.work_hours_text {
+  font: normal normal 300 16px/30px Roboto;
+  letter-spacing: 0;
+  color: #2f4d4b;
+}
+@media screen and (max-width:725px) and (min-width:0px) {
+   .hero__section .hero__title{
+    font: 39px / 68px Cinzel;
+  }
+  .section_title{
+    font: normal normal normal 18px/25px Cinzel;
+
+  }
+  .cardimg1{
+    height: 300px;
+  }
+  .cardimg2{
+    height: 300px;
+  }
+ 
+
+}
+@media screen and (max-width:995px) and (min-width:0px) {
+
+  .welcome-section .welcome_desk{
+width:85%;}
+
+.cardimg3{
+  display: none;
+}
+
+
+
+}
+@media screen and (max-width:990px) and (min-width:0px) {
+  .highlights_section_wrapper {
+width: 100%;
+  }
+  .hl_description {
+display: none;
+  }
+
+  .hl_img img {
+    margin-top: 0;
+  }
+
+}
+
+@media screen and (max-width:640px) and (min-width:0px) {
+
+  .hl_img img {
+    margin-top: 0;
+    margin-left: 20%;
+  }
+.footerflex{
+  flex-direction: column;
+}
+.paddinglfooter{
+  padding-left: 0!important;
+}
+}
